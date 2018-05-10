@@ -16,8 +16,8 @@ import com.tuananh.family.beautygirl.view.fragment.home.TrendingFragment;
 
 public class HomeAdapter extends FragmentStatePagerAdapter {
     private static final int COUNT = 2;
-    private static final int FOLLOWING = 1;
-    private static final int TRENDING = 2;
+    private static final int FOLLOWING = 0;
+    private static final int TRENDING = 1;
     private Context mContext;
 
     public HomeAdapter(Context context, FragmentManager fragmentManager) {

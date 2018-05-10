@@ -10,4 +10,10 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
+
+    <style name="TextAppearanceTabWidget">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
 </resources>

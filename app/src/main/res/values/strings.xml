@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Beauty Girl</string>
+    <string name="app_name">iGirl</string>
     <string name="text_tab_following">Following</string>
     <string name="text_tab_trending">Trending</string>
+
+    <!--login-->
+    <string name="text_join_us_to_meet_friends">Join us to meet friends</string>
 </resources>

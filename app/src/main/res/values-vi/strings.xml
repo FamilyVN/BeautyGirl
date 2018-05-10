@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iGirl</string>
+    <string name="text_tab_following">Theo dõi</string>
+    <string name="text_tab_trending">Xu hướng</string>
+</resources>
