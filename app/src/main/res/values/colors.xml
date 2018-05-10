@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorGray">#f2f3f8</color>
+    <color name="colorDividerTab">#f2f3f8</color>
+    <color name="colorFacebook">#3f5a9e</color>
+    <color name="colorPhone">#3fd1af</color>
+    <color name="colorEmail">#4a90e0</color>
 </resources>

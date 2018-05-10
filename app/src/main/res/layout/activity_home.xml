@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.tuananh.family.beautygirl.view.activity.home.HomeActivity">
 
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.tuananh.family.beautygirl.view.activity.home.HomeViewModel"/>
+    </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,11 +34,13 @@
                 android:id="@+id/tab_layout"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/size_10"
-                android:layout_marginRight="@dimen/size_10"
+                android:layout_marginLeft="@dimen/size_28"
+                android:layout_marginRight="@dimen/size_28"
                 android:layout_weight="1"
+                android:padding="@dimen/size_5"
                 app:tabIndicatorColor="@android:color/holo_orange_dark"
                 app:tabSelectedTextColor="@android:color/holo_orange_dark"
+                app:tabTextAppearance="@style/TextAppearanceTabWidget"
                 app:tabTextColor="@android:color/black"/>
 
             <android.support.v7.widget.AppCompatImageView

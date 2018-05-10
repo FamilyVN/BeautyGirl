@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tuananh.family.beautygirl.view.activity.login.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_120"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="@dimen/text_size_80"/>
+
+        <TextView
+            android:id="@+id/text_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_login"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="@dimen/size_32"
+            android:text="@string/text_join_us_to_meet_friends"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_16"/>
+
+        <LinearLayout
+            android:id="@+id/ll_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/size_80"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/size_60"
+                android:layout_height="@dimen/size_60"
+                android:layout_marginRight="@dimen/size_20"
+                android:background="@drawable/bg_oval_facebook"
+                app:srcCompat="@drawable/ic_facebook"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/size_60"
+                android:layout_height="@dimen/size_60"
+                android:layout_marginRight="@dimen/size_20"
+                android:background="@drawable/bg_oval_google"
+                app:srcCompat="@drawable/ic_google"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/size_60"
+                android:layout_height="@dimen/size_60"
+                android:layout_marginRight="@dimen/size_20"
+                android:background="@drawable/bg_oval_phone"
+                app:srcCompat="@drawable/ic_phone"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/size_60"
+                android:layout_height="@dimen/size_60"
+                android:background="@drawable/bg_oval_email"
+                app:srcCompat="@drawable/ic_mail"/>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>
