@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "com.tuananh.family.beautygirl"
+        applicationId "com.tuananh.family.igirl"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
@@ -31,4 +31,10 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
     implementation 'com.android.support:design:27.1.1'
+    implementation 'com.google.firebase:firebase-auth:15.1.0'
+    implementation 'com.google.firebase:firebase-database:15.0.1'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }
+
+apply plugin: 'com.google.gms.google-services'
