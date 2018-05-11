@@ -7,8 +7,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.tuananh.family.beautygirl.R;
-import com.tuananh.family.beautygirl.view.fragment.home.FollowingFragment;
-import com.tuananh.family.beautygirl.view.fragment.home.TrendingFragment;
+import com.tuananh.family.beautygirl.view.fragment.home.following.FollowingFragment;
+import com.tuananh.family.beautygirl.view.fragment.home.trending.TrendingFragment;
 
 /**
  * Created by FRAMGIA\vu.tuan.anh on 08/05/2018.
